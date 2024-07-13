@@ -12,7 +12,7 @@ export default function FlightPage() {
       <div className="mt-4">
         <TopBar />
       </div>
-      <div className="grid grid-cols-3 gap-4 mt-4">
+      <div className="grid grid-cols-3 gap-4">
         <div className="col-span-2 flex flex-col">
           <FlightResult />
         </div>

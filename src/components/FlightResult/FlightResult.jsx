@@ -1,7 +1,7 @@
 import React from "react";
 import "./FlightResult.css";
-import emirateslogo from "../../assets/emiratess.jpg";
-import lufthansalogo from "../../assets/Lufthansa.jpg";
+import emirateslogo from "../../assets/emiratess.png";
+import lufthansalogo from "../../assets/Lufthansa.png";
 import Qatarlogo from "../../assets/Qatar.png";
 import { Button } from "flowbite-react";
 
@@ -45,7 +45,7 @@ export default function FlightResult() {
       time2: "14:20",
       duration: "11H 20M",
       price: "$1872",
-      logo: lufthansalogo,
+      logo: emirateslogo,
     },
   ];
   return (
@@ -79,6 +79,7 @@ export default function FlightResult() {
                 color="success"
                 pill
                 className="bg-[#C99C33] text-white"
+                style={{ fontSize: "6px" }}
               >
                 Book Now
               </Button>

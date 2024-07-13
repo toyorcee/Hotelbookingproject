@@ -44,7 +44,7 @@ export default function Side() {
   ];
 
   return (
-    <section className="container h-[95vh] w-1/4 mx-auto bg-[#425C5A] rounded-3xl flex flex-col items-center">
+    <section className="container side w-1/4 mx-auto bg-[#425C5A] rounded-3xl flex flex-col items-center my-2">
       <div className="text-white w-full flex flex-col items-center">
         <div className="flex flex-col items-center p-4 bg-[#3D5654] rounded-3xl w-full lex">
           <img src={profile} alt="Profile" className="rounded-full h-16 mb-2" />
@@ -53,9 +53,9 @@ export default function Side() {
         </div>
         <div className="flex flex-col w-11/12 mt-4 items justify-between">
           {menuItems.map((item, index) => (
-            <div className="flex items-center gap-7 my-2 mx-10" key={index}>
+            <div className="flex items-center gap-7 my-2 mx-10 cursor-pointer" key={index}>
               {item.icon}
-              <p className="itemp">{item.name}</p>
+              <p className="itemp cursor-pointer">{item.name}</p>
             </div>
           ))}
         </div>

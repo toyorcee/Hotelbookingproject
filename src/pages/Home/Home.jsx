@@ -5,9 +5,9 @@ import FlightPage from "../FlightPage/FlightPage";
 
 export default function Home() {
   return (
-    <section className="container flex min-h-screen mx-8 p-4 rounded">
+    <section className="container home flex flex-1 rounded bg-[#E1ECEB]">
       <Side />
-      <main className="flex-1 p-4 overflow-y-auto">
+      <main className="flex-1 overflow-y-auto">
         <FlightPage />
       </main>
     </section>
