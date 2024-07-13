@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 export default function App() {
   return (
-    <div>
-      App
-    </div>
-  )
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
+  );
 }

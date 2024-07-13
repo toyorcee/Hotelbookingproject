@@ -1,0 +1,35 @@
+.lex h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.lex span {
+  font-size: small;
+  font-weight: 350;
+}
+
+.items {
+  gap: 10px;
+}
+
+.itemp{
+    font-weight: 475;
+}
+
+.active{
+    margin-right: 70px;
+}
+
+.active p{
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.active span{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
