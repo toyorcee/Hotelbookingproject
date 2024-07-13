@@ -5,7 +5,7 @@ import { Button } from "flowbite-react";
 
 export default function RightSidebar() {
   return (
-    <section className="container bg-[#425C5A] p-4 rounded-md shadow-md text-white h-full">
+    <section className="container bg-[#425C5A] p-4 rounded-md shadow-md text-white h-full w-full">
       <div className="flex bif mx-auto px-4">
         <div className="flex flex-col">
           <p>FROM</p>
